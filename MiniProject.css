@@ -1,0 +1,29 @@
+html
+{
+height:100%;
+}
+
+body
+{
+background: linear-gradient(to bottom, white, grey);
+height:100%;
+margin: 0;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+
+h1
+{
+text-align:center;
+color: red;
+border: 2px solid ;
+padding: 10px;
+margin-left: 10%;
+margin-right: 10%;
+}
+#entryWindow
+{
+margin-left: 5%;
+margin-right: 5%;
+}
