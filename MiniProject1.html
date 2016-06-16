@@ -2,25 +2,56 @@
 <html>
 
 <head>
-<link href="MiniProject.css" type="text/css" rel="stylesheet">
+<!--<link href="MiniProject.css" type="text/css" rel="stylesheet">-->
+    
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    
+
 </head>
 
 <body>
-<div id="entryWindow">
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
 <h1> Random Winner Generator!</h1>
-<h3> Welcome to the random winner generator.. are you lucky enough to be picked out of a large list of names and be crowned winner!? What do you win? Well, a random win toaster of course! It pops out toast...RANDOMLY! good luck to everyone!  </h3>
+<h3> Welcome to the random winner generator.. are you lucky enough to be picked out of a large list of names and be crowned winner!? What do you win? Well, a random win toaster of course! It pops out toast...RANDOMLY! good luck to everyone!</h3>
 <p> Terms and Conditions apply.</p>
-</div>
-<div id="winner"></div>
-<input type="text" id="nameEntry"/>
-<button id="button1">Submit Entry</button>
-<div>
-<button id="button2">Who's the winner?</button>    
-</div>
-<div id="namePane">The current entries are:</div>
-<div id="entries"></div>
+        </div> <!-- closing div for column-->
+    </div> <!-- closing div for row-->
+ 
+    
+    
+    <div class="row">
+        <div class="col-sm-6">
+            <input type="text" id="nameEntry"/>
+            <button id="button1">Submit Entry</button>
+            <button id="button2">Who's the winner?</button> 
+            
+            <div id="winner"></div>
+        </div> <!--closing tag for column--> 
+        
+        <div class="col-sm-6">
+         The current entries are: 
+        <div id="entries"></div>
+        </div> <!-- closing tag for clumn-->
+        
+    </div> <!-- closing tag for row-->
+   <div class="row">
+    <div class="col-sm-12">
+    
+       
+    </div> 
+    
+ </div> 
+    
+
     
 <script src="MiniProject.js"></script>
+</div> <!--end tag for container-->
 </body>
 
 </html>
